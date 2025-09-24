@@ -93,7 +93,7 @@ const News = () => {
 
     const handleSubmit = async () => {
         try {
-            if (!form.title || !form.description){
+            if (!form.title || !form.type){
                         toast.warning("Type and Title are required" , {
                                                 position: "bottom-right",
                                             });
