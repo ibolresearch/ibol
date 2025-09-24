@@ -20,7 +20,7 @@ export const makeRequest = async (endpoint, options = {}, autoAttachToken = true
         },
     };
 
-    const response = await fetch(`https://uiu-ibol-demo.onrender.com/api/${endpoint}`, {
+    const response = await fetch(`https://ibol.onrender.com/api/${endpoint}`, {
         ...defaultOptions,
         ...options,
         headers: {
